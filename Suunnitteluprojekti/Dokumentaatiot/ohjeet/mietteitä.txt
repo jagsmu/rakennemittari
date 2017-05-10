@@ -1,0 +1,23 @@
+- Sääkaappi testaus!?!?!?! Mittarin konfigurointiin.
+- Verkkovirtamittari?
+
+- Mitä pilvipalvelua käytetään? Datan tarkastelu ja visualisointi? 
+  Vai tallennetaanko tiedosto jonka käyttäjät voivat ladata?
+  Jarke selvittää.
+
+- Lepotila Arduinoon.
+
+- Arduinon koodin muokkaus, tagit dataan ja datan pakkaus samaan lähetykseen. Lähetystä ei tehdä jos toinen arvo = null?
+
+- Raspberryn koodin muokkaus. MySQL tallennus raspille. Siitä eteenpäin palvelinkoneelle -> Excel? SQL?
+
+- Jessellä ei ole mietteitä.
+
+- 
+
+
+https://www.mrexcel.com/forum/excel-questions/826356-saving-file-cloud-onedrive.html
+https://www.mrexcel.com/forum/excel-questions/80363-autosave-visual-basic-applications.html
+https://analysistabs.com/excel-vba/save-workbook-to-specific-folder/#bm1
+http://stackoverflow.com/questions/15267796/macro-to-make-a-backup-while-saving-a-file
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql

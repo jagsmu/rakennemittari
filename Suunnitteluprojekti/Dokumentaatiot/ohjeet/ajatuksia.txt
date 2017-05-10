@@ -1,0 +1,6 @@
+AJATUKSIA JA MIETTEITÄ SUUNNITTELUPROJEKTISTA: RAKENNEMITTARI
+
+Mittari rakenteen keskellä paloturvallisuusriski? Tarpeellinen riski? Tarpeellinen mittari? Ei huollettavissa.
+
+Mittari porattuna sisäseinään; kylmäsilta? paloturvallisuusriski?, miten rakenne suojataan?, miten varmistetaan
+datan paikkaansa pitävyys. Jos rakenne suojataan erikseen, miten taataan mittarin huolto?

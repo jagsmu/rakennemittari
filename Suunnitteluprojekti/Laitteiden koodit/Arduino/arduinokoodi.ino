@@ -1,0 +1,64 @@
+
+#include<DHT.h>
+#include<SPI.h>
+#include<RF24.h>
+#include<rBase64.h>
+
+#define DHTPIN A1
+#define DHTTYPE DHT22
+
+DHT dht(DHTPIN, DHTTYPE);
+
+RF24 radio(7,8);
+
+
+void setup(void)
+{
+  Serial.begin(9600);
+  radio.begin();
+  radio.setPALevel(RF24_PA_MAX);
+  radio.setChannel(0x76);
+  radio.openWritingPipe(0xF0F0F0F0E1LL);
+  radio.enableDynamicPayloads();
+  radio.powerUp();
+  dht.begin();
+}
+
+void loop(void)
+{
+  
+  
+  const uint8_t hum = dht.readHumidity();
+
+  const uint8_t temp = dht.readTemperature();
+
+  const uint8_t ID = 1;
+
+ 
+  int testi[3] = {ID, hum, temp};
+
+  int size_of_testi = sizeof(testi);
+  
+  Serial.println(testi[0]);
+  Serial.println(testi[1]);
+  Serial.println(testi[2]);
+  radio.write(&testi, sizeof(testi));
+  delay(2000);
+/*
+  Serial.println(hum);
+    radio.write(&hum, sizeof(hum));
+    delay(2000);
+
+  Serial.println(temp);
+    radio.write(&temp, sizeof(temp));
+    delay(1000);
+ */ 
+  // DISPLAY DATA
+  /*Serial.println("Humidity is: ");
+  Serial.println(hum);
+  Serial.println("Temperature is: ");
+  Serial.println(temp);
+  */
+  delay(1000);
+}
+

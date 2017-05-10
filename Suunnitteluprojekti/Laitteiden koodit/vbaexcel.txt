@@ -1,0 +1,11 @@
+Sub SaveIt()
+
+ThisWorkbook.Save
+
+Application.Wait (Now + TimeSerial(0, 0, 30))
+
+ThisWorkbook.SaveCopyAs "C:\Users\1500911\Dropbox\mittaridatabackup.xlsm"
+
+Application.OnTime Now + TimeSerial(0, 0, 50), "SaveIt"
+
+End Sub

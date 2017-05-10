@@ -1,0 +1,65 @@
+P‰ivitet‰‰n Excel Online:
+
+- Luodaan excel tiedosto desktopilla, joka osaa hakea raspilta tarvittavat tiedot suoraan (data from sql)
+- Uploadataan excel tiedosto excel onlineen ja kokeillaan suostuuko ohjelma p‰ivitt‰m‰‰n onlineen siirretty‰
+tiedostoa automaattisesti?
+
+https://blogs.technet.microsoft.com/office_online_support_blog/2015/10/29/excel-online-refreshing-data-to-a-sql-azure-database/
+
+https://support.office.com/en-us/article/Connect-a-SQL-Server-database-to-your-workbook-22c39d8d-5b60-4d7e-9d4b-ce6680d43bad
+
+
+Raspberry PI 3 - 1
+sql user
+
+name: testimies
+password: password
+
+excel connection:
+
+name: kissa
+
+username: testimies
+password: password
+hostname: 172.16.7.120  Forced ip
+mask: 255.255.252.0
+gateway: 172.16.4.1
+TCP
+port : 3306
+
+
+
+Raspberry PI 3 -2
+sql user
+
+name: testimies
+password: password
+
+excel connection:
+
+name: testikissa
+
+username: testimies
+password: password
+hostname: 172.16.7.148 Forced ip
+mask: 255.255.252.0
+gateway: 172.16.4.1
+TCP
+port : 3306
+
+
+
+Tietokone:
+
+pc ipv4: 172.16.7.180 <- DHCP (169.254.173.167)
+
+Asennus:
+https://www.mysql.com/why-mysql/windows/excel/
+https://dev.mysql.com/downloads/connector/odbc/ 32-bit ja 64-bit, kumpi on oikea? Kumpi toimii? 
+Asennettiin ODBC Data Sources 32-bit
+User DNS ja System DNS, molempiin asennettiin, kumpi oikea?
+
+
+http://www.jkp-ads.com/Download.asp
+http://blog.relayr.io/dev-projects/connecting-a-raspberry-pi-to-the-cloud/
+https://www.mrexcel.com/forum/excel-questions/826356-saving-file-cloud-onedrive.html

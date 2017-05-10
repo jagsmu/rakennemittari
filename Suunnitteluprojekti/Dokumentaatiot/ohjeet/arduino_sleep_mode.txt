@@ -1,0 +1,7 @@
+SLEEPY SLEEPERS
+
+https://openhomeautomation.net/arduino-battery/
+
+https://github.com/petervojtek/diy/wiki/Arduino-with-Very-Low-Power-Consumption
+
+http://www.engblaze.com/hush-little-microprocessor-avr-and-arduino-sleep-mode-basics/

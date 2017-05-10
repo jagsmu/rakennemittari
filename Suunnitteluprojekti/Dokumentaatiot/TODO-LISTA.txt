@@ -1,0 +1,27 @@
+TODO:
+
+MERKATKAA OMA NIMI VIEREEN KUN OTATTE JONKIN KOHDAN TYÖN ALLE
+POISTAKAA KOHTA TAI ILMOITTAKAA PP:lle, KUN SE ON VALMIS
+
+- Projektisuunnitelman liitteet (aikataulu ja budjetti)
+
+- Vaatimusmäärittelyn kuvaukset (Jesse on piirtänyt ne)
+
+- Vaatimusmäärittelyn järjestelmäkuvauksen korjaus. (Pilveen menee ethernet atm.)
+
+- Teknisen määrittelyn dokumenttipohjan aloitus (lähinnä etusivun täyttö)
+
+- Teknisen määrittelyn kaikki otsikot (osa tulee suoraan aikaisemmista dokumenteista)
+
+- Toiminnallisen määrittelyn dokumenttipohjan aloitus (lähinnä etusivun täyttö)
+
+- Toiminnallisen määrittelyn kaikki otsikot (osa tulee suoraan aikaisemmista dokumenteista) 
+
+
+KUVAKAAPPAUKSIA PROTOTYYPISTÄ!
+ESIM. 
+	- tietokanta
+	- raspberryn koodi
+	- arduinon koodi
+	- Excelin MySQL For Excelin käyttöliittymästä
+	

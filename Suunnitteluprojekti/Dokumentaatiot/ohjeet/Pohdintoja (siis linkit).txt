@@ -1,0 +1,8 @@
+excel macro label data points
+https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo
+https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-ExampleSketches#bm1
+https://waime.wordpress.com/2015/03/15/basic-measurement-with-accelerometer-gy-61-with-adxl335-chip/
+http://www.instructables.com/id/Sending-data-from-Arduino-to-Excel-and-plotting-it/step3/Sending-the-data-to-Excel/
+http://deron.meranda.us/python/demjson/download
+https://www.tutorialspoint.com/json/json_python_example.html
+https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/

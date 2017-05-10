@@ -1,0 +1,13 @@
+Projektin dropbox testikäyttäjä:
+
+Gmail:
+nimi: projekti
+email: projektitesti2017@gmail.com
+password: PT3Gf5lRnyOP9
+
+Dropbox:
+
+nimi: projektitesti2017
+password: RnyOP9PT3Gf5l
+
+
